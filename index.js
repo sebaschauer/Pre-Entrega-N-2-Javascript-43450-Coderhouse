@@ -76,8 +76,8 @@ function cuotas(montoApagar){
     let montoTotal = montoApagar*(1+ncuotas*recargo);
     let valorCuota = montoTotal/ncuotas
     console.log('El monto total a pagar en cuotas es: $' + montoTotal)
-    console.log(' El valor de la cuota resula:$' + valorCuota.toFixed(2))
-    alert(' El valor de la cuota resula:$' + valorCuota.toFixed(2))
+    console.log(' El valor de la cuota resulta:$' + valorCuota.toFixed(2))
+    alert(' El valor de la cuota resulta:$' + valorCuota.toFixed(2))
 }
 
 console.log('Listado de Productos')
